@@ -1,0 +1,31 @@
+# Dependencies
+node_modules/
+
+# Environment files
+.env
+.env.local
+.env.*.local
+
+# Build outputs
+frontend/dist/
+*.log
+
+# Data files (persistent state)
+backend/data/watchlist.json
+backend/data/known_pools.json
+
+# IDE
+.vscode/
+.idea/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Temporary files
+*.tmp
+*.temp
+
+# API response files (development only)
+api_response.json
+vault_response.json
